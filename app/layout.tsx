@@ -36,7 +36,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <Header/>
-        <main className="pt-25">
+        <main>
           {children}
         </main>
       </body>
